@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/gestion_adherent
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: kitalraph
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+server:
+  port: 8084
+springdoc:
+  default-produces-media-type: application/json
+
